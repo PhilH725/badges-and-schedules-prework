@@ -12,4 +12,4 @@ def batch_badge_creator(array)
   output
 end
 
-puts badge_maker(phil)
+puts badge_maker("phil")
