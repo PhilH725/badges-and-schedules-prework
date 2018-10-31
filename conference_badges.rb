@@ -14,7 +14,7 @@ end
 
 def assign_rooms(name_list)
   output = []
-  for i in (1..name_list)
+  for i in (1..name_list.size)
     output.push( "Hello, #{name_list[i - 1]}! You'll be assigned to room #{i}!" )
   end
   output
