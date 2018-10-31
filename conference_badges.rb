@@ -8,7 +8,7 @@ def batch_badge_creator(array)
   output = []
   index = 0
   for i in array
-    output.push(array[index])
+    output.push("Hello, my name is #{array[index]}.)
     index += 1
   end
   output
