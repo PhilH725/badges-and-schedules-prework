@@ -21,8 +21,10 @@ def assign_rooms(name_list)
 end
 
 def printer(name_list)
+  badges = batch_badge_creator
+  rooms assign_rooms
   for i in (0..name_list.size - 1)
-    puts batch_badge_creator( name_list[i] )
-    puts assign_rooms( name_list[i] )
+    puts badges[i]
+    puts rooms[i]
   end
 end
