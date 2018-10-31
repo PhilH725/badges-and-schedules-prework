@@ -6,8 +6,8 @@ end
 
 def batch_badge_creator(name_list)
   output = []
-  for i in (0..array.size - 1)
-    output.push(badge_maker(name_list[i]))
+  for i in (0..name_list.size)
+    output.push(badge_maker(name_list[i - 1]))
   end
   output
 end
