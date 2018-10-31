@@ -4,10 +4,10 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
+def batch_badge_creator(name_list)
   output = []
   for i in (0..array.size - 1)
-    output.push(badge_maker(array[i]))
+    output.push(badge_maker(name_list[i]))
   end
   output
 end
@@ -19,3 +19,4 @@ def assign_rooms(name_list)
   end
   output
 end
+
